@@ -1,0 +1,13 @@
+{
+    "title" : "测试gitbook",
+    "language" : "zh-hans",
+    "plugins" : [
+        "github",
+        "-sharing"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/zhdbest"
+        }
+    }
+}

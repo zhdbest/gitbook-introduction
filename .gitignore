@@ -1,0 +1,5 @@
+# 忽略 _book 目录
+/_book/
+
+# 忽略 node_modules 目录
+/node_modules/
