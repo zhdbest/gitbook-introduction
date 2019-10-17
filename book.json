@@ -1,6 +1,9 @@
 {
     "title" : "测试gitbook",
     "language" : "zh-hans",
+    "style" : {
+        "website": "styles/website.css"
+    },
     "plugins" : [
         "github",
         "-sharing"
