@@ -13,7 +13,7 @@
 ### 2. 生成的页面左侧导航栏，如何使用下划线来划分？
 * 效果1：
 
-    ![](/image/20191017171106.png)
+    ![](http://img.zhaohaodong.com/gitbook-introduction/20191017171106.png)
 
     这种效果是 SUMMARY.md 文件中章节之间有空行造成的，可以根据这种特性来个性化定制导航栏。上面这种效果的 SUMMARY.md ：
     ``` markdown
@@ -27,7 +27,7 @@
 
 * 效果2：
 
-    ![](/image/20191017171226.png)
+    ![](http://img.zhaohaodong.com/gitbook-introduction/20191017171226.png)
     
     上面这种效果的 SUMMARY.md ：
     ``` markdown
