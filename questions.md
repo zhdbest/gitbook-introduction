@@ -37,3 +37,23 @@
     * [2. 初始化](2.init.md)
     * [问题解决](question.md)
     ```
+
+### 3. 页面推送至 GitHub 后，打开时，一直加载的问题
+通过 F12 可以看到，一直加载的是 livereload.js，而这个 js 是 livereload 插件用于自动刷新页面的，调试时可以使用，发布至生产环境时最好关掉，关掉的方式是在 book.json 中将该插件禁用。
+
+该插件的 js 是“\gitbook\gitbook-plugin-livereload\plugin.js”，其代码如下：
+``` javascript
+(function() {
+  var newEl = document.createElement('script'),
+      firstScriptTag = document.getElementsByTagName('script')[0];
+
+  if (firstScriptTag) {
+    newEl.async = 1;
+    newEl.src = '//' + window.location.hostname + ':35729/livereload.js';
+    firstScriptTag.parentNode.insertBefore(newEl, firstScriptTag);
+  }
+
+})();
+```
+这里面会去加载livereload.js，而且是在 35729 这个端口，而 GitHub 不会给我们开放这个端口并提供服务的。
+

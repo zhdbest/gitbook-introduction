@@ -6,7 +6,8 @@
     },
     "plugins" : [
         "github",
-        "-sharing"
+        "-sharing",
+        "-livereload"
     ],
     "pluginsConfig": {
         "github": {
