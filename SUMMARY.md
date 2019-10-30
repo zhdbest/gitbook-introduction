@@ -4,4 +4,5 @@
 * [2. Quick Start](2.quick-start.md)
 * [3. 目录结构](3.structure.md)
     * [3.1 README.md](3.1README.md)
+    * [3.2 SUMMARY.md](3.2SUMMARY.md)
 * [问题解决](questions.md)
