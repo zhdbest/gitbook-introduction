@@ -7,11 +7,30 @@
     "plugins" : [
         "github",
         "-sharing",
-        "-livereload"
+        "-livereload",
+        "code",
+        "popup",
+        "-search", 
+        "-lunr",
+        "search-pro",
+        "ancre-navigation",
+        "alerts",
+        "flexible-alerts"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/zhdbest"
+        },
+        "flexible-alerts" : {
+            "style": "flat",
+            "note" : {
+                "label" : "笔记"
+            },
+            "comment": {
+                "label": "评论",
+                "icon": "fa fa-comments",
+                "className": "info"
+            }
         }
     }
 }
