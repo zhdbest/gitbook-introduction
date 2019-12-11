@@ -282,9 +282,37 @@ Markdown 文档：
 > [!COMMENT]
 > 这是一条评论
 
+配置信息中的`icon`是[Font Awesome](http://www.fontawesome.com.cn/faicons/)的图标。
+
 更多关于该插件的使用和配置，可参考 [github](https://github.com/zanfab/gitbook-plugin-flexible-alerts)。
 
 
 
+## versions-select
 
+可通过该插件来设置书的版本，配置如下：
+
+```json
+{
+  "plugins": [ "versions-select" ],
+  "pluginsConfig": {
+    "versions": {
+      "options": [
+        {
+          "value": "http://react-redux-firebase.com/history/v1.4.0/",
+          "text": "Version v1.4.0"
+        },
+        {
+          "value": "http://react-redux-firebase.com/history/v2.0.0/",
+          "text": "Version v2.0.0"
+        }
+      ]
+    }
+  }
+}
+```
+
+效果：
+
+![](http://img.zhaohaodong.com/gitbook-introduction/plugin-versions-select.png)
 
