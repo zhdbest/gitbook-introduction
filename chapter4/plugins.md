@@ -248,6 +248,39 @@ markdown 文档中引用：
 >
 >note的
 
+`className`也可以由自己指定，样式文件写在总的样式文件中（比如我的是项目根目录下的`styles/website.css`）。
+
+如下，是我创建一个新的样式class及使用的相关代码：
+
+* website.css
+
+  ```css
+  .alert.flat.note-new {
+      color: #285b2a;
+      background-color: #ecf1e8;
+      border-style:none;
+      border-radius: 0.5em;
+  }
+  
+  .alert.flat.note-new .title {
+      color: #3f6a22;
+  }
+  ```
+
+* markdown 文档
+
+  ```markdown
+  >[!note|className:note-new]
+  >这是`className`为`note-new`的效果，相较于默认效果，设置了无边框，并添加了边框为圆角。
+  ```
+* 效果
+
+  >[!note|className:note-new|style:flat]
+  >
+  >这是`className`为`note-new`的效果，相较于默认效果，设置了无边框，并添加了边框为圆角。
+
+
+
 ### 引入新的类型
 
 除了默认的四种类型：note、tip、warning、danger 之外，还可以自定义新的类型，如下：

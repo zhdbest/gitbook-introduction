@@ -1,3 +1,14 @@
 .gitbook-link {
     display: none !important;
 }
+
+.alert.flat.note-new {
+    color: #285b2a;
+    background-color: #ecf1e8;
+    border-style:none;
+    border-radius: 0.5em;
+}
+
+.alert.flat.note-new .title {
+    color: #3f6a22;
+}
