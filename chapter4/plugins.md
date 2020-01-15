@@ -349,3 +349,35 @@ Markdown 文档：
 
 ![](http://img.zhaohaodong.com/gitbook-introduction/plugin-versions-select.png)
 
+
+
+## advanced-emoji
+
+该插件提供了 emoji 表情的支持，配置如下：
+
+```json
+{
+    "plugins": [
+        "advanced-emoji"
+    ]
+}
+```
+
+emoji 表情地址：https://www.webfx.com/tools/emoji-cheat-sheet/
+
+使用时如下：
+
+<p>:one:</p>  
+
+<p>:two:</p>  
+
+<p>:smile:</p>
+
+效果如下：
+
+ :one:  
+
+:two:   
+
+:smile:
+

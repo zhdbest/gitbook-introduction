@@ -15,7 +15,8 @@
         "search-pro",
         "ancre-navigation",
         "alerts",
-        "flexible-alerts"
+        "flexible-alerts",
+        "advanced-emoji"
     ],
     "pluginsConfig": {
         "github": {
